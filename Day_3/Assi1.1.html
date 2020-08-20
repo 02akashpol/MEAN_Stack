@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="Assi1.1.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+
+      <div style="display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;">
+
+        <input type="text"
+        placeholder="Type City Name here..."
+        id="inputCityName"
+        required>
+      </div>
+
+      <div style="display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;">
+
+        <button onclick="weatherFun()">
+          Get Weather Data
+        </button>
+      </div>
+
+      <div class="parentBlock"
+      id="parentBlock" 
+      style="display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      flex-direction: column;">
+
+        <div style=" display: none;
+        background-color: blueviolet;
+        height: 100px;
+        margin-top: 5px;
+        width: 50vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+          City Name :  Avg Temp : 
+        </div> 
+
+      </div>
+
+    </div>
+  </body>
+
+</html>
