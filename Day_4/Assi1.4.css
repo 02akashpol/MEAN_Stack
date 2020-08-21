@@ -1,0 +1,40 @@
+html,
+body {
+
+  margin: 0;
+}
+
+.beautify {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.childBlock {
+
+  display: none;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 0, 255, 0.397);
+  border-radius: 10px;
+}
+
+.backgroundImg {
+
+  background: url("https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.container-fluid {
+
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
