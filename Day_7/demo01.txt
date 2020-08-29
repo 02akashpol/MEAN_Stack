@@ -1,0 +1,4 @@
+How NodeJS works ?
+
+Node JS is a JavaScript runtime environment. Both browser and Node JS run on V8 JavaScript engine. Node JS uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node JS applications uses single threaded event loop architecture to handle concurrent clients.
+
